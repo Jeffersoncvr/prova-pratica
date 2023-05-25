@@ -61,7 +61,7 @@
 /* --------------------HOME------------------------- */
 #Home{
     font-family: 'DM Sans', sans-serif;
-    background-image: url(/imagens/Elementbackground-linhas.png);
+    background-image: url(Elementbackground-linhas.png);
     background-size: cover;
     background-color: #043873;
     color: white;
@@ -95,7 +95,7 @@
     height: 25rem;
 }
 #Work-Together h1{
-    background-image: url(/imagens/Element.png);
+    background-image: url(Element.png);
     background-size: 15rem;
     background-repeat: no-repeat;
     background-position:8rem 2.3rem;

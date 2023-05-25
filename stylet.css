@@ -25,7 +25,7 @@
     }
 
     #Home{
-        background-image: url(imagens/linhas-back.png);
+        background-image: url(linhas-back.png);
         background-size: auto;
         background-repeat: no-repeat;
         background-position: 0rem 4.7rem;
@@ -71,7 +71,7 @@
         text-align: center;
     }
     #Work-Together h1{
-        background-image: url(/imagens/Element.png);
+        background-image: url(Element.png);
         background-size: 13rem;
         background-repeat: no-repeat;
         background-position:21rem 2.5rem;
