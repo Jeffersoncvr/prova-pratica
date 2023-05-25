@@ -133,7 +133,10 @@
     #opcoes{
         display: none;
     }
-    #Botoes-header{
+    #botao1{
+        display:none;
+    }
+    .botao2{
         display: none;
     }
     #logos-rodape{
@@ -141,6 +144,9 @@
     }
     .botao2{
         display: none;
+    }
+    #Botoes-header{
+        margin-right: 1rem;
     }
     #Cabecalho{
         font-family: 'DM Sans', sans-serif;
