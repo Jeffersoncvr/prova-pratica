@@ -48,6 +48,16 @@
     width: 9rem;
     padding: .3;
 }
+@media(min-width: 769px){
+    #botaomenu{
+        display:none;
+    }
+}
+@media(min-width: 769px){
+    #botaotablet{
+        display:none;
+    }
+}
 /* --------------------HOME------------------------- */
 #Home{
     font-family: 'DM Sans', sans-serif;

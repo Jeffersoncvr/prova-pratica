@@ -1,0 +1,62 @@
+@media (max-width: 768px){
+    header{
+        display: none;
+    }
+    #opcoes {
+        display:none;
+    }
+    #botao1{
+        display:none;
+    }
+    .botao2{
+        display: none;
+    }
+    #Cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #logo img{
+    height: 2rem;
+    margin-left: 2rem;
+    }
+    #Botoes-header{
+        margin-right: 2rem;
+    }
+
+    #Home{
+    background-image: url(imagens/linhas-back.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0rem 4.7rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+    text-align: center;
+    align-items: center;
+    }
+    #botaotablet{
+        font-family: 'Inter', sans-serif;
+        border-radius: 8px;
+        border: none;
+        background-color: #4F9CF9;
+        color: white;
+        height: 4rem;
+        width: 12rem;
+        padding: .3;
+    }
+    #Home h1{
+        padding: 2rem;
+        padding-left: 0px;
+        font-weight: 700;
+        font-size: 3.4rem;
+        letter-spacing: -0.02em;
+    }
+    #Home p{
+        padding-bottom: 3.5rem;
+    }
+    
+}
