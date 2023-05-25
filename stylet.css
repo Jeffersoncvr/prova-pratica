@@ -25,18 +25,18 @@
     }
 
     #Home{
-    background-image: url(imagens/linhas-back.png);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-position: 0rem 4.7rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 90vh;
-    text-align: center;
-    align-items: center;
+        background-image: url(imagens/linhas-back.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: 0rem 4.7rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+        text-align: center;
+        align-items: center;
     }
     #botaotablet{
         font-family: 'Inter', sans-serif;
