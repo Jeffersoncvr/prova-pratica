@@ -25,6 +25,9 @@
     height: 2rem;
     margin-left: 10rem;
 }
+#menu{
+    display: none;
+}
 #Botoes-header{
     margin-right: 10rem;
 }
@@ -48,10 +51,13 @@
     width: 9rem;
     padding: .3;
 }
+.botao3{
+    display: none;
+}
 /* --------------------HOME------------------------- */
 #Home{
     font-family: 'DM Sans', sans-serif;
-    background-image: url(/imagens/Elementbackground-linhas.png);
+    background-image: url(Elementbackground-linhas.png);
     background-size: cover;
     background-color: #043873;
     color: white;
@@ -85,7 +91,7 @@
     height: 25rem;
 }
 #Work-Together h1{
-    background-image: url(/imagens/Element.png);
+    background-image: url(Element.png);
     background-size: 15rem;
     background-repeat: no-repeat;
     background-position:8rem 2.3rem;
@@ -131,4 +137,175 @@
     align-items: center;
     width: 5rem;
     justify-content: space-between;
+}
+/* -------versao mobile ----------*/
+
+@media (max-width : 320px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+        
+    }
+    #opcoes{
+        display: none;
+    }
+    #Botoes-header{
+        display: none;
+    }
+    #logos-rodape{
+        display: none;
+    }
+    .botao2{
+        display: none;
+    }
+    #Cabecalho{
+        font-family: 'DM Sans', sans-serif;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #043873;
+        height: 10vh;
+    }
+    #logo{
+        margin-left: 1rem;
+    }
+    .frase{
+        width: 125px;
+        height: 23px;
+    }
+    #menu{
+        margin-right: 1rem;
+    }
+    /* ------home -----*/
+    #Home{
+        background-position: 25% 20%;
+        background-size: cover;
+        background-color: #043873;
+        padding-left: 1.5rem;
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        align-items: center; 
+    }
+    #Home h1{
+        color: white;
+        padding-left: 0.5rem;
+        font-size: 2.2rem;
+        padding-bottom: 2rem;
+    }
+    .project{
+        
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        margin-right: 0.7rem;
+        margin-left: -0.4rem;
+
+    }
+    .botao3{
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        border-radius: 8px;
+        border: none;
+        background-color: #4F9CF9;
+        color: white;
+        height: 4.8rem;
+        width: 14.5rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        margin-right: 1rem;
+        
+    }
+    /* ------worktogether -----*/
+
+    #Work-Together{
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        height: 33rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    
+    #Work-Together h1{
+        background-image: url(Element.png);
+        background-size: 12rem;
+        background-repeat: no-repeat;
+        background-position: 7rem 1rem;
+        padding-bottom: 1rem;
+        color: #212529;
+        font-family: 'Inter', sans-serif;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    #Work-Together p{
+        color: #212529;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: -0.02em;
+        text-align: center;
+        
+
+    }
+    #botao-conteudo{
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        border-radius: 8px;
+        border: none;
+        background-color: #4F9CF9;
+        color: white;
+        height: 5rem;
+        width: 11.16rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        margin-left: 3.5rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+    }
+    #Work-Together img{
+        width: 17.4rem;
+        height: 16.2rem;
+        display: flex;
+        margin-left: 1rem;
+        margin-right: 1rem;   
+    }
+    /* --------- footer -------*/
+    #rodape{
+        padding: 2.5rem;
+        height: 9rem;
+        width: 15rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #043873;
+        color: white;
+    }
+    #textos-rodape{
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;   
+    }
+    #textos-rodape p{
+        letter-spacing: -0.02em;
+        padding: 0.7rem;
+    }
 }
