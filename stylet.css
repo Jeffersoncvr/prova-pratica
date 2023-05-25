@@ -1,0 +1,124 @@
+@media (max-width: 768px){
+    header{
+        display: none;
+    }
+    #opcoes {
+        display:none;
+    }
+    #botao1{
+        display:none;
+    }
+    .botao2{
+        display: none;
+    }
+    #Cabecalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #logo img{
+        height: 2rem;
+        margin-left: 2rem;
+    }
+    #Botoes-header{
+        margin-right: 2rem;
+    }
+
+    #Home{
+        background-image: url(imagens/linhas-back.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: 0rem 4.7rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+        text-align: center;
+        align-items: center;
+        letter-spacing: -0.02em;
+    }
+    #botaotablet{
+        font-family: 'Inter', sans-serif;
+        border-radius: 8px;
+        border: none;
+        background-color: #4F9CF9;
+        color: white;
+        height: 4rem;
+        width: 12rem;
+        padding: .3;
+    }
+    #Home h1{
+        padding: 2rem;
+        padding-left: 0px;
+        font-weight: 700;
+        font-size: 3.4rem;
+        letter-spacing: -0.02em;
+    }
+    #Home p{
+        padding-bottom: 3.5rem;
+    }
+    
+    #Work-Together{
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 160vh;
+        margin: 1rem 1rem;
+        text-align: center;
+    }
+    #Work-Together h1{
+        background-image: url(/imagens/Element.png);
+        background-size: 13rem;
+        background-repeat: no-repeat;
+        background-position:21rem 2.5rem;
+        font-weight: 700;
+        font-size: 3rem;
+        padding-bottom: 2rem;
+    }
+    #Work-Together p{
+        font-weight: 400;
+        font-size: 1.1rem;
+        padding-bottom: 3rem;
+        letter-spacing: -0.02em;
+    }
+    #Work-Together img{
+        margin-right: 0;
+        height: 24rem;
+        padding-top: 5.5rem;
+    }
+    #botao-conteudo{
+        font-family: 'Inter', sans-serif;
+        border-radius: 8px;
+        border: none;
+        background-color: #4F9CF9;
+        color: white;
+        height: 3.5rem;
+        width: 10rem;
+        padding: .3;
+    }
+    #rodape{
+        height: 15vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #043873;
+        color: white;
+        padding: 2rem;
+    }
+    #logos-rodape{
+        display: none;
+    }
+    #textos-rodape{
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Inter', sans-serif;
+        font-size: 18px;
+        width: 45rem;
+        border-bottom: solid #043873;
+    }
+
+}
